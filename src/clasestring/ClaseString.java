@@ -87,6 +87,11 @@ public class ClaseString {
          
          //Probar métodos endsWhith, startWith, is Empty
          
+          System.out.println("El metodo compara el final del String " + s2.endsWith(s1));
+          
+          System.out.println("El metodo compara el principio del String " + s2.startsWith(s1));
+          
+          System.out.println("solo vuelve true si la longuitud es 0 "+ s2.isEmpty());
          //Obtener un array de char de la cadena
          //Declaración de una variable array de tipo char
          char [] arrayChar;
