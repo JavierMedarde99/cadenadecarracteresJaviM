@@ -21,7 +21,7 @@ public class ClaseString {
         System.out.println("Tamaño " + s.length());
         
         //Obtener el char de una posicion concreta
-        System.out.println("char asociado a la posicion 5 " + s.charAt(5));
+        System.out.println("char asociado a la posicion 5: " + s.charAt(5));
         
         //Obtener subcadena desde el caracter i hasta el final
         //de la cadena
@@ -40,6 +40,18 @@ public class ClaseString {
         String nuevo2= s1.concat(s2);
         System.out.println("nuevo: "+ nuevo);
         System.out.println("nuevo2: "+ nuevo2);
+        
+        //Devuelve el índice dentro de la cadena 
+        //de la primera aparición de la cadena a buscar
+        int indice= nuevo.indexOf("mar");
+        System.out.println("Indice: " + indice);
+        
+        indice = nuevo.indexOf("ran", 10);
+        System.out.println("Indice: " + indice);
+        
+        //Metodos equals y equalsIgnoereCase
+        System.out.println("Igualdad Java y java " + "Java".equals("java"));
+         System.out.println("Igualdad Java y java " + "Java".equalsIgnoreCase("java"));
         
     }
     
